@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Ecoleta" title="Ecoleta" src="folder/folder.png" />
+<img alt="Ecoleta" title="Ecoleta" src="images/folder.png" />
 </div>
 
 <h1 align="center">
