@@ -1,8 +1,8 @@
-### I - Introduction to Data Science
+* ### I - Introduction to Data Science
 
 Começaremos o curso definindo o que é ciência de dados. Abordaremos o fluxo de trabalho da ciência de dados e como a ciência de dados é aplicada a problemas do mundo real. Terminaremos o capítulo aprendendo sobre as diferentes funções no campo da ciência de dados.
 
-- O que é ciência de dados?
+ #### O que é ciência de dados?
 
 Pode ser entendido como um conjunto de metodologias para captar milhares de formas de dados que estão disponíveis e usa-los para tirar conclusões significativas.
 
@@ -19,28 +19,29 @@ Pode ser entendido como um conjunto de metodologias para captar milhares de form
 |---------|---------|---------|
 |O que precisamos:<br/> Uma pergunta bem definida <br/> Um conjunto de dados de exemplo<br/>  Um novo conjunto de dados para usar nosso algoritmo|Refere-se a gadgets que não são computadores padrão| Requer muito mais dados de treinamento|
 
-- Data science roles and tools
+* Data science roles and tools
 
 ![](https://github.com/Marcos314/Data-Science-for-Everyone/blob/master/folder/rolesDS.png)
 
 
-### II - Data Collection and Storage
+* ### II - Data Collection and Storage
 
-- Fonte de dados: Dados Abertos e Dados de uma companhia (privados)
+* Fonte de dados: Dados Abertos e Dados de uma companhia (privados)
 
--  Tipos de dados
+####  Tipos de dados
   
 |Dados Quantitativos  |Dados Qualitativos |
 |---------|---------|
 |Podem ser contados, medidos e expressos através de números     |Descritivos e conceituais; Não podem ser medidos         |
 
-- Armazenamento e Recuperação de dados
+* Armazenamento e Recuperação de dados
 
-- Pipeline de dados
+#### Pipeline de dados
+
 
 Um pipeline de dados coloca os dados em um estágio bem definido.
   
- * O ETL (extract, transform, load) é uma estrutura popular para pipelines de dados.
+* O ETL (extract, transform, load) é uma estrutura popular para pipelines de dados.
 
 Exemplo de ferramenta para gerenciar pipeline: Airflow
 
@@ -49,8 +50,7 @@ Exemplo de ferramenta para gerenciar pipeline: Airflow
 
 A análise exploratória de dados (EDA) é um processo promovido por John Tukey, um respeitado estatístico. Consiste em explorar os dados e formular hipóteses sobre os mesmos.
 
-### IV - Experimentation and Prediction
-
+#### IV - Experimentation and Prediction
 - Teste A/B: utilizado para fazer um escolha entre duas opções.
 
 A significância estatística ajuda a indicar se um resultado é devido ao acaso.
