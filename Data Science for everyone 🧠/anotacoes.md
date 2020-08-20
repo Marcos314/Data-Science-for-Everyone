@@ -50,7 +50,7 @@ Exemplo de ferramenta para gerenciar pipeline: Airflow
 
 A análise exploratória de dados (EDA) é um processo promovido por John Tukey, um respeitado estatístico. Consiste em explorar os dados e formular hipóteses sobre os mesmos.
 
-#### IV - Experimentation and Prediction
+### IV - Experimentation and Prediction
 - Teste A/B: utilizado para fazer um escolha entre duas opções.
 
 A significância estatística ajuda a indicar se um resultado é devido ao acaso.
@@ -67,5 +67,35 @@ Exemplos:
 
 Os métodos de modelagem usam uma combinação de métodos estatísticos e de aprendizado de máquina;
 
-- Aprendizado de máquina supervisionado
+#### Aprendizado de máquina supervisionado
 
+* Faz uma previsão com base em dados 
+* Os dados têm características e rótulos
+    * Rótulo: o que queremos prever
+
+  * Características: dados que podem prever o rótulo
+
+O modelo treinado pode fazer previsões
+
+#### Clusterização (Agrupamento)
+
+<div align="center">
+<img src="../folder/clustering.png"/>
+</div>
+
+* Aprendizado não supervisionado
+
+    Utiliza dados apenas com recusos (Features);
+
+* Divida os dados em categorias
+
+* Casos de uso:
+  * Segmentação de clientes
+
+  * Segmentação de imagem
+
+  * Detecção de anomalia
+
+Etapas básicas de um projeto de ciência de dados:
+
+<img src="../folder/resume.png">
