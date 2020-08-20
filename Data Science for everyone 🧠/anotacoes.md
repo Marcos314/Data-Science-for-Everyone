@@ -26,6 +26,46 @@ Pode ser entendido como um conjunto de metodologias para captar milhares de form
 
 **II - Data Collection and Storage**
 
+- Fonte de dados: Dados Abertos e Dados de uma companhia (privados)
+
+-  Tipos de dados
+  
+|Dados Quantitativos  |Dados Qualitativos |
+|---------|---------|
+|Podem ser contados, medidos e expressos através de números     |Descritivos e conceituais; Não podem ser medidos         |
+
+- Armazenamento e Recuperação de dados
+
+- Pipeline de dados
+
+Um pipeline de dados coloca os dados em um estágio bem definido.
+  
+ * O ETL (extract, transform, load) é uma estrutura popular para pipelines de dados.
+
+Exemplo de ferramenta para gerenciar pipeline: Airflow
+
+
 **III - Preparation, Exploration, and Visualization**
 
+A análise exploratória de dados (EDA) é um processo promovido por John Tukey, um respeitado estatístico. Consiste em explorar os dados e formular hipóteses sobre os mesmos.
+
 **IV - Experimentation and Prediction**
+
+- Teste A/B: utilizado para fazer um escolha entre duas opções.
+
+A significância estatística ajuda a indicar se um resultado é devido ao acaso.
+
+- Previsão de série temporal
+ 
+Exemplos:
+
+*Quanta chuva teremos no próximo mês?*
+
+*Como o mercado de ações se moverá nas próximas seis horas?*
+
+*Qual será a população da Terra em 20 anos?*
+
+Os métodos de modelagem usam uma combinação de métodos estatísticos e de aprendizado de máquina;
+
+- Aprendizado de máquina supervisionado
+
