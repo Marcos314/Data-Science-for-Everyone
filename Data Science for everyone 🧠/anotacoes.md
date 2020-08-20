@@ -1,4 +1,4 @@
-* ### I - Introduction to Data Science
+### I - Introduction to Data Science
 
 Começaremos o curso definindo o que é ciência de dados. Abordaremos o fluxo de trabalho da ciência de dados e como a ciência de dados é aplicada a problemas do mundo real. Terminaremos o capítulo aprendendo sobre as diferentes funções no campo da ciência de dados.
 
@@ -24,7 +24,7 @@ Pode ser entendido como um conjunto de metodologias para captar milhares de form
 ![](https://github.com/Marcos314/Data-Science-for-Everyone/blob/master/folder/rolesDS.png)
 
 
-* ### II - Data Collection and Storage
+### II - Data Collection and Storage
 
 * Fonte de dados: Dados Abertos e Dados de uma companhia (privados)
 
