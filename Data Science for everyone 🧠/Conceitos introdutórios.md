@@ -21,7 +21,7 @@ Pode ser entendido como um conjunto de metodologias para captar milhares de form
 
 * Data science roles and tools
 
-![](https://github.com/Marcos314/Data-Science-for-Everyone/blob/master/folder/rolesDS.png)
+![](https://github.com/Marcos314/Data-Science-for-Everyone/blob/master/images/rolesDS.png)
 
 
 ### II - Data Collection and Storage
@@ -80,7 +80,7 @@ O modelo treinado pode fazer previsões
 #### Clusterização (Agrupamento)
 
 <div align="center">
-<img src="../folder/clustering.png"/>
+<img src="../images/clustering.png"/>
 </div>
 
 * Aprendizado não supervisionado
@@ -98,4 +98,4 @@ O modelo treinado pode fazer previsões
 
 Etapas básicas de um projeto de ciência de dados:
 
-<img src="../folder/resume.png">
+<img src="../images/resume.png">
