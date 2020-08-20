@@ -1,4 +1,4 @@
-**I - Introduction to Data Science**
+### I - Introduction to Data Science
 
 Começaremos o curso definindo o que é ciência de dados. Abordaremos o fluxo de trabalho da ciência de dados e como a ciência de dados é aplicada a problemas do mundo real. Terminaremos o capítulo aprendendo sobre as diferentes funções no campo da ciência de dados.
 
@@ -24,7 +24,7 @@ Pode ser entendido como um conjunto de metodologias para captar milhares de form
 ![](https://github.com/Marcos314/Data-Science-for-Everyone/blob/master/folder/rolesDS.png)
 
 
-**II - Data Collection and Storage**
+### II - Data Collection and Storage
 
 - Fonte de dados: Dados Abertos e Dados de uma companhia (privados)
 
@@ -45,11 +45,11 @@ Um pipeline de dados coloca os dados em um estágio bem definido.
 Exemplo de ferramenta para gerenciar pipeline: Airflow
 
 
-**III - Preparation, Exploration, and Visualization**
+### III - Preparation, Exploration, and Visualization
 
 A análise exploratória de dados (EDA) é um processo promovido por John Tukey, um respeitado estatístico. Consiste em explorar os dados e formular hipóteses sobre os mesmos.
 
-**IV - Experimentation and Prediction**
+### IV - Experimentation and Prediction
 
 - Teste A/B: utilizado para fazer um escolha entre duas opções.
 
