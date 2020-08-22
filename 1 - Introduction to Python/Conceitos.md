@@ -62,5 +62,6 @@
         x = ["a", "b", "c", "d"]
         del(x[1])
 
-### Funções e pacotes
+### Numpy
+Matrizes numpy não podem conter elementos com tipos diferentes.
 
