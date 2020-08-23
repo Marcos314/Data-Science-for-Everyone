@@ -52,6 +52,42 @@ A visualização de dados é uma habilidade fundamental para aspirantes a cienti
 ### Dicionários & Pandas
 Conheça o dicionário, uma alternativa à lista Python, e o pandas DataFrame, o padrão de fato para trabalhar com dados tabulares em Python. Você terá prática na criação e manipulação de conjuntos de dados e aprenderá como acessar as informações de que precisa a partir dessas estruturas de dados.
         
+- Removendo um par chave: valor de um dicionário
+        
+        del world['sealand']
+
+- **Pandas**
+
+Pandas é uma biblioteca de código aberto que fornece estruturas de dados de alto desempenho e fáceis de usar e ferramentas de análise de dados para Python.
+
+O DataFrame é uma das estruturas de dados mais importantes do Pandas. É basicamente uma forma de armazenar dados tabulares onde você pode rotular as linhas e colunas. Uma maneira de construir um DataFrame é a partir de um dicionário.
+
+
+```python
+'''nomes: contendo os nomes dos países para os quais existem dados disponíveis.
+   dr: uma lista com booleanos que informa se as pessoas dirigem para a esquerda ou direita no país correspondente.
+   cpc: o número de veículos motorizados por 1000 pessoas no país correspondente.'''
+
+names = ['United States', 'Australia', 'Japan', 'India', 'Russia', 'Morocco', 'Egypt']
+dr =  [True, False, False, False, True, True, True]
+cpc = [809, 731, 588, 18, 200, 70, 45]
+
+# Importando o pacote pandas
+import pandas as pd
+
+# Criando o dicionário my_dict, usando as listas já criadas como valores
+my_dict = {
+    country = names,
+    drives_right = dr,
+    cars_per_cap = cpc
+}
+
+# Construindo um dataframe, com o dicionário my_dict
+cars = pd.DataFrame(my_dict)
+
+# Mostrando o dataframe
+print(cars)
+```
 
 
 ### Lógica, Fluxo de Controle e Filtragem
