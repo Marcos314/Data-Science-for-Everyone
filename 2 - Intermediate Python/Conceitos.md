@@ -65,7 +65,7 @@ O DataFrame é uma das estruturas de dados mais importantes do Pandas. É basica
 
 ```python
 '''nomes: contendo os nomes dos países para os quais existem dados disponíveis.
-   dr: uma lista com booleanos que informa se as pessoas dirigem para a esquerda ou direita no país correspondente.
+   dr: **uma** lista com booleanos que informa se as pessoas dirigem para a esquerda ou direita no país correspondente.
    cpc: o número de veículos motorizados por 1000 pessoas no país correspondente.'''
 
 names = ['United States', 'Australia', 'Japan', 'India', 'Russia', 'Morocco', 'Egypt']
@@ -89,6 +89,15 @@ cars = pd.DataFrame(my_dict)
 print(cars)
 ```
 
+- **Indexar e selecionar dados**
+    * Acessando uma coluna []
+
+        `dataframe['name_col']`
+
+- **Loc e Iloc** (escrever...)
+    
+         
+         
 
 ### Lógica, Fluxo de Controle e Filtragem
 
