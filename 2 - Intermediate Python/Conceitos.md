@@ -108,6 +108,27 @@ A lógica booleana é a base da tomada de decisão em programas Python. Aprenda 
 ### Laços de repetição
 Existem várias técnicas que você pode usar para executar o código Python repetidamente. Enquanto os loops são como instruções if repetidas, o loop for itera sobre todos os tipos de estruturas de dados.
 
+- **For**
+
+Usar um loop for para iterar em uma lista só dá acesso a todos os elementos da lista em cada execução, um após o outro. Se você também deseja acessar as informações do índice, de modo que onde o elemento da lista que você está iterando está localizado, você pode usar enumerate().
+
+Exemplo:
+
+
+```python
+fam = [1,73, 1,68, 1,71, 1,89]
+para índice, altura em enumerar (fam):
+     imprimir ("pessoa" + str (índice) + ":" + str (altura))
+
+Output:
+pessoa 0: 1.73
+pessoa 1: 1.68
+pessoa 2: 1.71
+pessoa 3: 1.89
+
+```
+
+
 
 ### Estudo de caso: Habilidades estatísticas
 
