@@ -114,7 +114,7 @@
   A função que você definirá é gibberish () que pode aceitar um número variável de valores de string. Seu valor de retorno é uma única string composta de todos os argumentos da string concatenados juntos na ordem em que foram passados para a chamada de função. Você chamará a função com um único argumento de string e verá como a saída muda com outra chamada usando mais de um argumento de string. Lembre-se do vídeo anterior que, dentro da definição da função, args é uma tupla.
   
 
-  
+
   
   
   
@@ -127,3 +127,50 @@
   Vamos prosseguir com o que você aprendeu sobre argumentos flexíveis - você usou * args, agora vai usar ** kwargs! O que torna ** kwargs diferente é que ele permite que você passe um número variável de argumentos de palavras-chave para funções. Lembre-se do vídeo anterior que, dentro da definição de função, kwargs é um dicionário.
 
   Para entender melhor essa ideia, você usará ** kwargs neste exercício para definir uma função que aceita um número variável de argumentos de palavras-chave. A função simula um sistema simples de relatório de status que imprime o status de um personagem em um filme. 
+
+    <div align="center">
+        <img src="../images/anakin.png">
+        <img src="../images/darthvader.png">
+        <img src="../images/luke.png">
+    
+    </div>
+
+    ```python
+    
+    # Define report_status
+    def report_status(**kwargs):
+        """Print out the status of a movie character."""
+
+        print("\nBEGIN: REPORT\n")
+
+        # Iterate over the key-value pairs of kwargs
+        for key, value in kwargs.items():
+            # Print out the keys and values, separated by a colon ':'
+            print(key + ": " + value)
+
+        print("\nEND REPORT")
+
+    # First call to report_status()
+    report_status(name='luke',affiliation='jedi', status='missing')
+
+    # Second call to report_status()
+    report_status(name='anakin', affiliation='sith', status='lord')
+    
+    Output:
+
+    BEGIN: REPORT
+
+    name: luke
+    affiliation: jedi
+    status: missing
+
+    END REPORT
+
+    BEGIN: REPORT
+
+    name: anakin
+    affiliation: sith
+    status: lord
+
+    END REPORT
+    ```
