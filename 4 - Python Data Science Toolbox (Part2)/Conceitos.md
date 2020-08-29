@@ -53,7 +53,87 @@ Você aprenderá tudo sobre iteradores e iteráveis, com os quais já trabalhou 
     Output:
     ('charles xavier', 'telepathy') ('bobby drake', 'thermokinesis') ('kurt wagner', 'teleportation') ('max eisenhardt', 'magnetokinesis') ('kitty pryde', 'intangibility')
     ```
-## Compreensões e geradores de lista
+## Compreensões de lista
 
-Neste capítulo, você desenvolverá seu conhecimento sobre iteradores e será apresentado a compreensões de listas, que permitem criar listas complicadas - e listas de listas - em uma linha de código! As compreensões de lista podem simplificar drasticamente seu código e torná-lo mais eficiente, e se tornarão uma parte vital de sua caixa de ferramentas de ciência de dados Python. Em seguida, você aprenderá sobre geradores, que são extremamente úteis ao trabalhar com grandes sequências de dados que você pode não querer armazenar na memória, mas gerar dinamicamente.
+Neste capítulo, você desenvolverá seu conhecimento sobre iteradores e será apresentado a compreensões de listas, que permitem criar listas complicadas - e listas de listas - em uma linha de código! As compreensões de lista podem simplificar drasticamente seu código e torná-lo mais eficiente, e se tornarão uma parte vital de sua caixa de ferramentas de ciência de dados Python.
 
+- **Compreensão de Listas / List of Comprehension**
+  
+    É  uma forma concisa de criar e manipular listas.
+
+    Componentes necessários:
+
+    * Iterável
+
+    * Variável de iterador (representa membros de iterável)
+
+    * Expressão de saída
+    
+    Exemplo 1:
+    
+    ```python
+    # Criar lista de compreensão: quadrados
+    squares = [i**2 for i in range(0,10)]
+    print(squares)
+
+    Output:
+    [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+    ```
+
+    Exemplo 2:
+
+    
+    ```python
+    # Crie uma matriz 5 x 5 usando uma lista de listas: matriz
+    matrix = [[col for col in range(0,5)] for row in range(0,5)]
+
+    # Imprima a matriz
+    for row in matrix:
+        print(row)
+
+    Output:
+    [0, 1, 2, 3, 4]
+    [0, 1, 2, 3, 4]
+    [0, 1, 2, 3, 4]
+    [0, 1, 2, 3, 4]
+    [0, 1, 2, 3, 4]
+    ```
+
+
+
+- **Condicionais em listas de compreensão**
+    
+    * Condicional no interável
+    
+    Exemplo: 
+    
+    ```python
+        # Create a list of strings: fellowship
+        fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gimli']
+
+        # Create list comprehension: new_fellowship
+        new_fellowship = [member for member in fellowship if len(member) >= 7]
+
+        # Print the new list
+        print(new_fellowship)
+        Output: 
+        ['samwise', 'aragorn', 'legolas', 'boromir']
+    ```
+
+
+
+    * Condicional na expressão de saída
+
+    Exemplo:
+    ```python
+    # Create a list of strings: fellowship
+            fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gimli']
+
+            # Create list comprehension: new_fellowship
+            new_fellowship = [members if len(members) >=7 else '' for members in fellowship]
+
+            # Print the new list
+            print(new_fellowship)
+            Output: 
+            ['', 'samwise', '', 'aragorn', 'legolas', 'boromir', '']
+    ```
