@@ -53,7 +53,7 @@ Você aprenderá tudo sobre iteradores e iteráveis, com os quais já trabalhou 
     Output:
     ('charles xavier', 'telepathy') ('bobby drake', 'thermokinesis') ('kurt wagner', 'teleportation') ('max eisenhardt', 'magnetokinesis') ('kitty pryde', 'intangibility')
     ```
-## Compreensões de lista
+## Compreensão de lista
 
 Neste capítulo, você desenvolverá seu conhecimento sobre iteradores e será apresentado a compreensões de listas, que permitem criar listas complicadas - e listas de listas - em uma linha de código! As compreensões de lista podem simplificar drasticamente seu código e torná-lo mais eficiente, e se tornarão uma parte vital de sua caixa de ferramentas de ciência de dados Python.
 
