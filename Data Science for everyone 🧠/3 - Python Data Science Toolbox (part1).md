@@ -152,9 +152,9 @@
   Para entender melhor essa ideia, você usará ** kwargs neste exercício para definir uma função que aceita um número variável de argumentos de palavras-chave. A função simula um sistema simples de relatório de status que imprime o status de um personagem em um filme. 
 
     <div align="center">
-        <img src="../images/anakin.png">
-        <img src="../images/darthvader.png">
-        <img src="../images/luke.png">
+        <img src="../Images/anakin.png">
+        <img src="../Images/darthvader.png">
+        <img src="../Images/luke.png">
     
     </div>
 
@@ -275,9 +275,6 @@ Aprenda sobre as funções lambda permitem escrever funções de maneira rápida
     Output:
     robb sansa arya brandon rickon
     ```
-### Tratamento de erros
-
-
 
 ### Juntando tudo (1)
 
