@@ -20,7 +20,7 @@ A visualização de dados é uma habilidade fundamental para aspirantes a cienti
         #Display histogram
         plt.show()
 <div align="center">
-<img src="./../images/hist1.png">
+<img src="./../Images/hist1.png">
 </div>
 
 * **Gráfico de dispersão**
@@ -46,7 +46,7 @@ A visualização de dados é uma habilidade fundamental para aspirantes a cienti
         plt.show()
 
 <div align="center">
-<img src="./../images/scatter.png">
+<img src="./../Images/scatter.png">
 </div>
 
 ### Dicionários & Pandas
