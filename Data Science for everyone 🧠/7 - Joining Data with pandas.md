@@ -40,5 +40,12 @@ ridership_cal = ridership.merge(cal, on=['year','month','day'])
 
 ## Merging Tables With Different Join Types
 
+- **Left Join**
+
+Uma junção a esquerda retorna todas as linhas de dados da tabela a esquerda e apenas as linhas da tabela a direita onde as colunas-chave correspondem.
+
+<div align='center'>
+<img src="./../Images/leftJoin.png" height="250px">
+</div>
 
 
