@@ -49,3 +49,25 @@ Uma junção a esquerda retorna todas as linhas de dados da tabela a esquerda e 
 </div>
 
 
+Definir how = 'left' com o método .merge () é uma técnica útil para enriquecer ou aprimorar um conjunto de dados com informações adicionais de uma tabela diferente.
+
+
+```python
+# Merge the toy_story and taglines tables with a left join
+toystory_tag = toy_story.merge(taglines, on= 'id', how = 'left')
+
+# Print the rows and shape of toystory_tag
+print(toystory_tag)
+print(toystory_tag.shape)
+
+Output:
+     id        title        popularity         release_date             tagline
+0  10193     Toy Story 3     59.995418         2010-06-16          No toy gets left behind.
+1    863     Toy Story 2     73.575118         1999-10-30          The toys are back!
+2    862     Toy Story       73.640445         1995-10-30                 NaN
+
+(3, 5)
+```
+
+
+
