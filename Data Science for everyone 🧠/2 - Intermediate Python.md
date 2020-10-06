@@ -7,6 +7,7 @@ A visualização de dados é uma habilidade fundamental para aspirantes a cienti
 
 
 * **Histogramas**
+
   
   * Explorar conjunto de dados
   * Tenha uma ideia sobre distribuição
